@@ -13,8 +13,12 @@ int main() {
 	eliminar(&pila1);
 	
 	printf("El último elemento de la pila es: %i", ultimoElemento(pila1));
+
+    printf("\n");
 	
-	
+	insertar(&pila1, 17);
+
+    printf("El último elemento de la pila es: %i", ultimoElemento(pila1));
 	
 	return 0;
 }
